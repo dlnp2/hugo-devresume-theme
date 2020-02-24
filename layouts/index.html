@@ -45,8 +45,9 @@
                             {{ end }}
 
                         </div><!--//resume-main-->
-
+                        {{ if .Site.Params.vertical_line.enable }}
                         {{ partial "sidebar.html" . }}
+                        {{ end }}
 
                     </div><!--//row-->
 
