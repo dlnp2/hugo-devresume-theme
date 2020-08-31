@@ -117,9 +117,22 @@ a.theme-link {
 
 }
 
+@media screen and (max-width: 768px) {
+    .resume-name {
+        font-size: 2rem;
+        margin-bottom: 2px;
+    }
+}
+
 .resume-tagline {
 	font-size: 1.25rem;
 	font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .resume-tagline {
+        font-size: 1.1rem;
+    }
 }
 
 .resume-contact {
