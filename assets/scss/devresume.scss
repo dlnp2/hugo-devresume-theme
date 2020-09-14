@@ -112,6 +112,7 @@ a.theme-link {
 .resume-name {
 	font-size: 2.75rem;
 	font-weight: 900;
+    margin-bottom: 0px;
 	letter-spacing: 0.4rem;
 	color: $theme-color-primary;
 
@@ -120,7 +121,7 @@ a.theme-link {
 @media screen and (max-width: 768px) {
     .resume-name {
         font-size: 2rem;
-        margin-bottom: 2px;
+        margin-bottom: 6px;
         letter-spacing: 0.3rem;
     }
 }
